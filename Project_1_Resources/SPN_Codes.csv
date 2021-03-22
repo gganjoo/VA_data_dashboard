@@ -1,0 +1,796 @@
+SPN,Definition
+B70,"Death, Battle Casualty  Navy"
+B79,"Death, Battle Casualty  Navy"
+BB,Maximum Age
+BC,Maximum Service Or Time In Grade
+BCR,Weight Control Failure
+BD,Sufficient Service For Retirement
+BDA,Fraudulent Entry
+BDG,Parenthood Or Custody Of Minor Children
+BDK,Military Personnel Security Program
+BDT,Fraudulent Entry (Drug Abuse)
+BDU,Fraudulent Entry (Alcohol Abuse)
+BE (INACTIVE),Early Retirement
+BFD,Disruptive Behavior Disorder
+BFE,Mental Disorder (Other)
+BFS,"Good of the Service, conduct triable by court martial"
+BFT,Physical Standards
+BFV,"Condition, Not A Disability "
+BFX,Personality Disorder
+BFY,Adjustment Disorder
+BFZ,Impulse Control Disorder
+BHF,Failure To Complete A Course Of Instruction
+BHJ,Unsatisfactory Performance
+BHK,Substandard Performance
+BJ,Medal Of Honor Recipient
+BK,Required Active Service
+BKA,Pattern Of Misconduct
+BKB,Misconduct (Civil Conviction)
+BKC,See BRA
+BKK,Misconduct (Drug Abuse)
+BKL,Misconduct (Sexual Perversion)
+BKM,Misconduct (Other)
+BKN,Misconduct (Minor Infractions)
+BKQ,Misconduct (Serious Offense)
+BKR,Misconduct (Anthrax Refusal)
+BLC,Homosexuality
+BLF,Drug use
+BLM,Unfitness (Reason Unknown)
+BM,Insufficient Retainability (Economic Reasons)
+BML,Homosexuality
+BMN,Unsuitability (Reason Unknown)
+BNB,Unacceptable Conduct (Anthrax Refusal)
+BNC,Unacceptable Conduct
+BPC,Drug Rehabilitation Failure
+BPD,Alcohol Rehabilitation Failure
+BRA,Homosexual Conduct (Acts)
+BRB,Homosexual Conduct (Statement)
+BRC,Homosexual Conduct (Marriage Or Attempted Marriage)
+CA(INACTIVE),Early Release Program-Voluntary Separation Incentive
+CB (INACTIVE),Early Release Program-Special Separation Benefit
+CBL,Unsuitability (Reason Unknown)
+CC,Reduction In Force
+CF,Attend Civilian School
+CK,Civil Office Appointment
+CM,Conscientious Objector
+CN,Force Shaping Initiatives
+CP,Alien
+CQ,Surviving Family Member
+CR,Weight Control Failure
+DA,Fraudulent Entry
+DB,Hardship
+DCH,Early Release  To teach
+DER,Disability  Non EPTS  No Severance Pay
+DF,Pregnancy Or Childbirth
+DFS,In Lieu Of Trial By Court Martial
+DG,Parenthood Or Custody Of Minor Children
+DK,Military Personnel Security Program
+DKL,Misconduct (Sexual Perversion)
+DL,Ecclesiastical Endorsement
+DLC,Homosexuality
+DM,Holiday Release Program
+DN,Lack Of Jurisdiction
+DS,Defective Enlistment Agreement
+DT,Fraudulent Entry (Drug Abuse)
+DU,Fraudulent Entry (Alcohol Abuse)
+EA,"Disability, Combat, Enhanced"
+EB,"Disability, Non Combat, Enhanced"
+EE,"Disability, Existed Prior To Service, Peb (Enhanced) "
+EJ,"Disability, Permanent (Enhanced)"
+EK,Disability Temporary (Enhanced)
+EKD,"AWOL, Desertion"
+EL,"Disability, Severance Pay (Enhanced) "
+ELPAC,Entry Level Performance & Conduct
+EN,"Disability, Existed Prior To Service, Med Board (Enhanced) "
+EP,"Disability, Not In Line Of Duty (Enhanced) "
+EQ,"Disability, Aggravation (Enhanced) "
+ER,"Disability, Other (Enhanced) "
+FA,Erroneous Entry (Alcohol Abuse)
+FB,Under Age
+FBC,Other
+FBD,Sufficient Service For Retirement
+FBJ,Medal Of Honor Recipient
+FBK,Completion Of Required Active Service
+FBL,Expiration of Term of Service
+FC,Erroneous Entry (Other)
+FCA,Early Release Program-Voluntary Separation Incentive
+FCB,Early Release Program-Special Separation Benefit
+FCC,Reduction In Force
+FCF,Attend Civilian School
+FCK,Civil Office
+FCM,Conscientious Objector
+FCN,Force ShapingVsp
+FCP,Alien
+FCQ,Surviving Family Member - Sole Survivorship
+FCR,Weight Control Failure
+FD,Disruptive Behavior Disorder
+FDB,Hardship
+FDF,Pregnancy Or Childbirth
+FDG,Parenthood
+FDL,Ecclesiastical Endorsement
+FDM,Holiday Early Release Program
+FE,Mental Disorder (Other)
+FF,Secretarial Authority
+FFF,Secretarial Authority
+FFT,Physical Standards
+FFV,"Condition, Not A Disability "
+FFW,Failed Medical/Physical Procurement Standards
+FG,"Competent Authority, Without Board Action"
+FGM,To accept commission
+FGP,Interdepartmenmental Transfer
+FGQ,Intradepartmental Transfer
+FH,Failure To Accept Regular Appointment
+FHC,Immediate Enlistment Or Reenlistment
+FHG,Dismissal - No Review
+FI,"Disability, Combat "
+FJ,"Disability, Permanent "
+FK,Disability Temporary
+FKD,"AWOL, Desertion"
+FL,"Disability, Severance Pay "
+FM,"Disability, Existed Prior To Service, Peb "
+FN,"Disability, Existed Prior To Service, Med Board "
+FND,Miscellaneous/- General Reasons
+FO,"Disability, Non Combat "
+FP,"Disability, Not In Line Of Duty "
+FQ,"Disability, Aggravation "
+FR,"Disability, Other "
+FS,In Lieu Of Trial By Court Martial
+FT,Physical Standards
+FU,Erroneous Entry (Drug Abuse)
+FV,"Condition, Not A Disability "
+FW,Failed Medical/Physical Procurement Standards
+FX,Personality Disorder
+FY,Adjustment Disorder
+FZ,Impulse Control Disorder
+GA,Entry Level Performance And Conduct
+GB,"Non-Selection, Permanent Promotion "
+GC,"Non-Selection, Temporary Promotion"
+GCN,Force Shaping (Board Selected)
+GCR,Weight Control Failure
+GDA,Fraudulent Entry
+GDG,Parenthood Or Custody Of Minor Children
+GDK,Military Personnel Security Program
+GDL,Ecclesiastical Endorsement
+GDT,Fraudulent Entry (Drug Abuse)
+GDU,Fraudulent Entry (Alcohol Abuse)
+GFC,Erroneous Entry (Other)
+GFD,Disruptive Behavior Disorder
+GFE,Mental Disorder (Other)
+GFN,Released for Conditions Existing Prior to Service
+GFT,Physical Standards
+GFV,"Condition, Not A Disability "
+GFX,Personality Disorder
+GFY,Adjustment Disorder
+GFZ,Impulse Control Disorder
+GGH,Non-Retention On Active Duty
+GH,Non-Retention On Active Duty
+GHF,Other
+GHJ,Unsatisfactory Performance
+GHK,Substandard Performance
+GJ,Request For Extension Of Service Denied
+GJB,Court Martial
+GKA,Pattern Of Misconduct
+GKB,Misconduct (Civil Conviction)
+GKC,Homosexuality
+GKD,Misconduct (Awol)
+GKE,Financial Irresponsibility
+GKF,Misconduct (Desertion)
+GKG,Fraudulent Entry
+GKH,Lack of Dependent Support
+GKK,Misconduct (Drug Abuse)
+GKL,Misconduct (Sexual Perversion)
+GKM,Misconduct (Other)
+GKN,Misconduct (Minor Infractions)
+GKQ,Misconduct (Serious Offense)
+GKR,Misconduct (Anthrax Refusal)
+GKS,"AWOL, Desertion"
+GLB,Discreditable Incidents  Civilian or Military
+GLC,Homosexuality 
+GLF,Drug use
+GLG,Financial Irresponsibility
+GLH,Lack of Dependent Support
+GLJ,Shirking
+GLK,Unsanitary Habits
+GLL,Sexual Perversion
+GM,Accept Commission Or Warrant In Same Branch Of Service
+GMB,Character or Behavior Disorder
+GMC,Enuresis
+GMD,Inaptitude
+GMF,Sexual Perversion GMG  Alcoholism
+GMH,Financial Irresponsibility
+GMJ,Motivational problems; OR
+GMJ,Shirking
+GMK,Character or Behavior Disorder
+GML,Homosexuality
+GMM,Drug use
+GMN,Unsuitability (Reason Unknown)
+GMP,Unsanitary Habits
+GN,Accept Commission Or Warrant In Another Branch Of Service
+GNB,Unacceptable Conduct (Anthrax Refusal)
+GNC,Unacceptable Conduct
+GP,Interdepart- Mental Transfer
+GPB,Drug use
+GPC,Drug Rehabilitation Failure
+GPD,Alcohol Rehabilitation Failure
+GQ,Intradepartmental Transfer
+GRA,Homosexual Conduct (Acts)
+GRB,Homosexual Conduct (Statement)
+GRC,Homosexual Conduct (Marriage Or Attempted Marriage)
+GU,Enrollment In Service Academy
+GX,Enter Officer Training Program
+H21-H23,"Death  , Non  Battle, Other (USMC)"
+H25H59,"Death, Non  Battle, Other (USMC)"
+H31,"Death, Non  Battle, Other (USMC); OR"
+H31,"Death, Non  Battle, Other (USMC)"
+H4G,"Death, Non  Battle, Other (USMC)"
+H51,"Death, Non  Battle, Other (USMC)"
+H61-1169,"Death, Battle Casualty  Marine "
+HBF,Early Release  To attend school
+HC,Immediate Enlistment Or Reenlistment
+HCR,Weight Control Failure
+HD,Failure To Complete Commissioning Or Warrant Program
+HDA,Fraudulent Entry
+HDF,Pregnancy
+HDG,Parenthood Or Custody Of Minor Children
+HDK,Military Personnel Security Program
+HDT,Fraudulent Entry (Drug Abuse)
+HDU,Fraudulent Entry (Alcohol Abuse)
+HF,Failure To Complete A Course Of Instruction
+HFC,Erroneous Entry (Other)
+HFD,Disruptive Behavior Disorder
+HFE,Mental Disorder (Other)
+HFT,Physical Standards
+HFV,"Condition, Not A Disability "
+HFX,Personality Disorder
+HFY,Adjustment Disorder
+HFZ,Impulse Control Disorder
+HG,Dismissal - No Review
+HGH,[No definition for this code at this time]
+HH,Dismissal - Awaiting Appellate
+HHF,Failure To Complete A Course Of Instruction
+HHJ,Unsatisfactory Performance
+HJ,Unsatisfactory Performance
+HJB,Court Martial
+HK,Substandard Performance
+HKA,Pattern Of Misconduct
+HKB,Misconduct (Civil Conviction)
+HKD,Misconduct (Awol)
+HKE,"AWOL, Desertion; OR"
+HKE,Financial Irresponsibility
+HKF,Misconduct (Desertion)
+HKG,Fraudulent Entry
+HKH,Shirking
+HKJ,Lack of Dependent Support
+HKK,Misconduct (Drug Abuse)
+HKL,Misconduct (Sexual Perversion)
+HKM,Misconduct (Other)
+HKN,Misconduct (Minor Infractions)
+HKQ,Misconduct (Serious Offense)
+HKR,Misconduct (Anthrax Refusal)
+HLB,Discreditable Incidents  Civilian or Military
+HLC,Homosexuality
+HLF,Drug use
+HLG,Financial Irresponsibility
+HLH,Lack of Dependent Support
+HLJ,Shirking
+HLK,Unsanitary Habits
+HLL,Sexual Perversion
+HMB,Character or Behavior Disorder
+HMC,Enuresis
+HMD,Inaptitude
+HMF,Sexual Perversion
+HMG,Alcoholism
+HMJ,Motivational problems
+HMM,Drug use
+HMN,Financial Irresponsibility; OR
+HMN,Unsuitability (Reason Unknown)
+HMP,Unsanitary Habits
+HNB,Unacceptable Conduct (Anthrax Refusal)
+HNC,Misconduct (Reason Unknown)
+HPC,Drug Rehabilitation Failure
+HPD,Alcohol Rehabilitation Failure
+HRA,Homosexual Conduct (Acts)
+HRB,Homosexual Conduct (Statement)
+HRC,Homosexual Conduct (Marriage Or Attempted Marriage)
+HRG,No information at this time 
+HWL,Homosexuality
+J11,USAF Other
+JA,Court Martial (Alcohol)
+JB,Court Martial (Homosexual Conduct)
+JBB,"Involuntary discharge, age, USAF; OR"
+JBB,Maximum Age
+JBC,Maximum Service Or Time In Grade
+JBD,Retirement  20  30 Years Service
+JBH,Other
+JBK,Completion Of Required Active Service
+JBM,Early Release  Insufficient time left in service after returning from overseas or other duty; OR
+JBM,"Within 3 months of end active obligated service, USN  Enlisted; OR"
+JBM,Insufficient Retainability (Economic Reasons)
+JC,Court Martial (Desertion)
+JCC,Early Release  Reduction in authorized strength; OR
+JCC,"General demobilization. Reduction in authorized strength, USN  Enlisted; OR"
+JCC,Reduction In Force
+JCM,Conscientious Objector
+JCP,Alien
+JCR,Weight Control Failure
+JD,Court Martial (Other)
+JDA,Fraudulent Entry
+JDF,Pregnancy
+JDF(INACTIVE),Pregnancy Or Childbirth
+JDG,Parenthood Or Custody Of Minor Children
+JDJ,Early Release  In the national interest
+JDK,Military Personnel Security Program
+JDL,Ecclesiastical Endorsement
+JDM,Early Release  Other
+JDN,Lack Of Jurisdiction
+JDP,Breach of Contract
+JDR,Early Release  Other; OR
+JDR,"Strength reduction. first term airman, USAF"
+JDT,Fraudulent Entry (Drug Abuse)
+JDU,Fraudulent Entry (Alcohol Abuse)
+JE,Court Martial (Drug Abuse)
+JEA,"Disability, Severance Pay, Combat Related (Enhanced)"
+JEB,"Disability, Severance Pay, Non Combat (Enhanced)"
+JED,Early Release  Insufficient Retainability
+JEE,"Disability, Existed Prior To Service, Peb (Enhanced) "
+JEH,USAF Expeditious Discharge
+JEM,Army Trainee Discharge; OR
+JEM,USAF Expeditious Discharge; OR
+JEM,"USN, USMC Failure to meet minimum qualifications for Retention"
+JEN,"Disability, Existed Prior To Service, Med Board (Enhanced) "
+JEP,"Disability, Not In Line Of Duty (Enhanced) "
+JEQ,"Disability, Aggravation (Enhanced) "
+JER,"Disability, Other (Enhanced) "
+JET,Army Trainee Discharge; OR
+JET,USAF Trainee Discharge (See also JGA)
+JF,Court Martial (Anthrax Refusal)
+JFA,Erroneous Entry (Alcohol Abuse)
+JFB,Under Age
+JFBI,"Physical disability that existed prior to entry. was revealed by Marine during enlistment processing and was waived by AFEES or higher headquarters, USMC"
+JFC,Enlisted/reenlisted/extended/inducted in error/ Erroneous Enlistment or Induction; OR
+JFC,Erroneous Entry (Other)
+JFC1,"Erroneous enlistment; a medical board determined that Marine failed to meet required physical standards for enlistment. Marine was not aware of defect and defect was not detected or waived by AFEES, USMC"
+JFD,Disruptive Behavior Disorder
+JFE,Mental Disorder (Other)
+JFF,Secretarial Authority
+JFG,"Army, Navy, USAF Discharge by competent authority w/o Board Action. (Failure to resign  failed to meet entrance physical requirement); OR"
+JFG,"Competent Authority, Without Board Action"
+JFG(1-7),"USMC Other, for the Good of the Service"
+JFG(9),USMC Trainee Discharge
+JFG(B),USMC Expeditious Discharge
+JFI,"Disability, Severance Pay, Combat Related"
+JFL,Physical Disability  Severance Pay or Juvenile Offender; OR
+JFL,"Physical disability. entitled to severance pay., USN  Officers; OR"
+JFL,"Disability, Severance Pay "
+JFL1,"Physical disability with severance pay, USAF"
+JFL2,"Physical disability that existed prior to service but was aggravated by the Service, with severance pay, USAF"
+JFM,"Physical disability existing prior to entry on active duty established by physical evaluation board proceedings. Not entitled to severance pay., USN  Enlisted; OR"
+JFM,"Physical disability existing prior to service as established by physical evaluation board. Not entitled to severance pay., USN Officers; OR"
+JFM,"Disability, Existed Prior To Service, Peb "
+JFM2,"Physical disability that existed prior to entry. disability was unknown by Marine but was detected and waived by AFEES or higher headquarters, USMC"
+JFM3,"Physical disability that existed prior to entry for any reason not falling within the purview of JFM1 or JFM2, USMC"
+JFN,"Physical disability existing prior to service as established by medical board. not entitled to severance pay., USN  Officers; OR"
+JFN,"Disability, Existed Prior To Service, Med Board "
+JFN1,"Physical disability determined by a medical board that existed prior to entry. disability was revealed by Marine during enlistment processing and waived by AFEES or higher headquarters, USMC"
+JFN2,"Physical disability determined by a medical board that existed prior to entry. disability was unknown to Marine but detected and waived by AFELS or higher headquarters, USMC"
+JFN3,"Physical disability determined by a medical board that existed prior to entry; any reason not failing within the purview of JFN1 or JFN2, USMC"
+JFO,"Disability, Severance Pay, Non Combat"
+JFP,"Disability, Not In Line Of Duty "
+JFQ,"Disability, Aggravation "
+JFR,Disability  Non EPTS  No Severance Pay; OR
+JFR,"Physical disability not existing prior to entry on active duty established by physical evaluation board processing. Not entitled to severance pay., USN  Enlisted; OR"
+JFR,"Disability, Other "
+JFR1,"Physical disability that existed prior to service and not aggravated by the Service, without severance pay, USMC"
+JFS,See KFS
+JFT,Physical Standards
+JFU,Positive Urinalysis; OR
+JFU,Erroneous Entry (Drug Abuse)
+JFV,"Physical condition, not a disability, interfering with performance of duty, USN  Enlisted; OR"
+JFV,"Condition, Not A Disability "
+JFV1,"Discharge because of a physical condition which is not disabling. involuntary, USMC"
+JFV5,"Medical board determination of obesity, USMC"
+JFV6,"Discharge because of a physical condition which is not disabling (Pseudo folliculitis Barbae), USMC"
+JFW,Failed Medical/Physical Procurement Standards
+JFX,Personality Disorder
+JFY,Adjustment Disorder
+JFZ,Impulse Control Disorder
+JG7,"Army, Navy, USMC Failure to meet minimum qualifications for Retention; OR"
+JG7,USAF Trainee Discharge
+JGA,Entry level status performance and conduct or entry level status performance  pregnancy; OR
+JGA,Entry Level Performance And Conduct
+JGB,Failure of selection for permanent promotion; OR
+JGB,"Failure to select for promotion. not retirement eligible, USN  Officers; OR"
+JGB,"Non-Selection, Permanent Promotion "
+JGC,"Failure to select for promotion. not retirement eligible, USN  Officers; OR"
+JGC,"Non-Selection, Temporary Promotion"
+JGC1,"Failure of selection for promotion, USAF"
+JGF,Failure to meet minimum qualifications for Retention
+JGH,"Army, Air Force Expeditious Discharge; OR"
+JGH,"USN, USMC Failure to meet minimum qualifications for Retention"
+JGH,Non-Retention On Active Duty
+JHD,"Disqualified from officer candidate training physical, USN  Enlisted; OR"
+JHD,Navy Expeditious Discharge; OR
+JHD,Failure To Complete Commissioning Or Warrant Program
+JHE,Failure to meet minimum qualifications for Retention
+JHF,Failure To Complete A Course Of Instruction
+JHJ,"Army, USMC, USAF Unsuitability (Reason Unknown)/ Unsatisfactory performance; OR"
+JHJ,Unsatisfactory Performance
+JHK,Substandard Performance
+JHM,Misconduct (Reason Unknown)
+JIV,Unqualified for Active Duty  Other
+JJA,Court Martial (Alcohol)
+JJB,Court Martial (Homosexual Conduct)
+JJC,Court Martial (Desertion)
+JJD,Court Martial (Other)
+JJE,Court Martial (Drug Abuse)
+JJF,Court Martial (Anthrax Refusal)
+JKA,Pattern Of Misconduct
+JKB,Misconduct (Civil Conviction)
+JKC,Homosexuality
+JKD,Misconduct (Awol)
+JKE,Financial Irresponsibility
+JKF,Misconduct (Desertion)
+JKG,Fraudulent Entry
+JKH,Lack of Dependent Support
+JKJ,See JHJ
+JKK,Misconduct (Drug Abuse)
+JKL,Misconduct (Sexual Perversion)
+JKM,Misconduct (Other)
+JKN,Misconduct (Minor Infractions)
+JKQ,Misconduct (Serious Offense)
+JKR,Misconduct (Anthrax Refusal)
+JKV,Unsanitary Habits
+JLB,Discreditable Incidents  Civilian or Military
+JLC,Homosexuality
+JLF,Drug use
+JLG,Financial Irresponsibility
+JLH,Lack of Dependent Support
+JLJ,Shirking
+JLK,Unsanitary Habits
+JLL,Sexual Perversion
+JMB,Character or Behavior Disorder
+JMC,Enuresis
+JMD,Inaptitude
+JMF,Sexual Perversion
+JMG,Alcoholism
+JMH,Financial Irresponsibility
+JMJ,Motivational problems
+JML,Homosexuality
+JMM,Drug use
+JMN,"Navy, USMC, USAF Unsuitability (Reason Unknown)"
+JMP,Unsanitary Habits
+JNB,Unacceptable Conduct (Anthrax Refusal)
+JNC,"Misconduct, moral or professional dereliction; OR"
+JNC,Unacceptable Conduct
+JND,"Other, Concealment of arrest record; OR"
+JND,Miscellaneous/- General Reasons
+JNF,Army Trainee Discharge; OR
+JNF,"Navy, USMC, USAF Other"
+JNG,Unfitness (Reason Unknown)
+JPB,Drug use
+JPC,Drug Rehabilitation Failure
+JPD,Alcohol Rehabilitation Failure
+JRA,Homosexual Conduct (Acts)
+JRB,Homosexual Conduct (Statement)
+JRC,Homosexual Conduct (Marriage Or Attempted Marriage)
+KA,Pattern Of Misconduct
+KAK,Expiration of Term of Service
+KB,Misconduct (Civil Conviction)
+KBD,Retirement  20  30 Years Service
+KBH,Other
+KBJ,Medal Of Honor Recipient
+KBK,Completion Of Required Active Service
+KBM,Insufficient Retainability (Economic Reasons)
+KCA,Early Release Program-Voluntary Separation Incentive
+KCB,Early Release Program-Special Separation Benefit
+KCC,Reduction In Force
+KCE,Early Release  To attend school
+KCF,Attend Civilian School
+KCK,Early Release  In the national interest; OR
+KCK,Civil Office
+KCM,Conscientious Objector
+KCN,Force ShapingVsp
+KCO,Sole surviving son
+KCP,Alien
+KCQ,Surviving Family Member
+KD,Misconduct (Awol)
+KDB,Hardship
+KDF,Pregnancy Or Childbirth
+KDG,Parenthood Or Custody Of Minor Children
+KDH,Dependency or Hardship
+KDJ,Early Release  In the national interest
+KDK,Military Personnel Security Program
+KDM,Holiday Early Release Program
+KDM1,"Marine Corps order applicable to all members of a class, USMC"
+KDN,Lack Of Jurisdiction
+KDP,Breach of Contract
+KDQ,Breach of Contract 
+KDR,Early Release  Other
+KDS,Defective Enlistment Agreement
+KDT,Fraudulent Entry (Drug Abuse)
+KDU,Fraudulent Entry (Alcohol Abuse)
+KEA,Expiration of Term of Service
+KEB,Early Release  Other 
+KEC,Expiration of Term of Service
+KEE,"Disability, Existed Prior To Service, Peb (Enhanced) "
+KEN,"Disability, Existed Prior To Service, Med Board (Enhanced) "
+KF,Misconduct
+KFB,Minority
+KFD,Disruptive Behavior Disorder
+KFE,Mental Disorder (Other)
+KFF,"Secretarial Authority, to be discharged or retire as an officer; OR"
+KFF,Secretarial Authority
+KFG,Other
+KFH,Failure To Accept Regular Appointment
+KFM,"Disability, Existed Prior To Service, Peb "
+KFN,"Disability, Existed Prior To Service, Med Board "
+KFS,In Lieu Of Trial By Court Martial
+KFT,"Failure to qualify medically for flight training, no disability"
+KFV,"Condition, Not A Disability "
+KFX,Personality Disorder
+KFY,Adjustment Disorder
+KFZ,Impulse Control Disorder
+KGF,Failure to meet minimum qualifications for Retention
+KGH,Non-Retention On Active Duty
+KGL,Officer or Warrant Officer Commission program
+KGM,Accept Commission Or Warrant In Same Branch Of Service
+KGN,Accept Commission Or Warrant In Another Branch Of Service
+KGP,Interdepartmental Transfer
+KGQ,Intradepartmental Transfer
+KGS,Officer Commission program
+KGT,Warrant Officer program
+KGU,Service Academy
+KGV,Unqualified for Active Duty  Other
+KGX,Enter Officer Training Program
+KHC,Immediate Enlistment Or Reenlistment
+KHD,Failure To Complete Commissioning Or Warrant Program
+KHF,Failure To Complete A Course Of Instruction
+KHK,Substandard Performance
+KK,Misconduct (Drug Abuse)
+KKB,Misconduct (Civil Conviction)
+KL,Misconduct (Sexual Perversion)
+KLG,Financial Irresponsibility
+KLM,Unfitness (Reason Unknown)
+KM,Misconduct (Other)
+KMN,Army Expeditious Discharge
+KN,Misconduct (Minor Infractions)
+KNC,Unacceptable Conduct
+KND,Miscellaneous/- General Reasons
+KNF,Other
+KNL,Good of the Service
+KOG,Early Release  Police Duty
+KOJ,Early Release  Seasonal Employment
+KQ,Misconduct (Serious Offense)
+KR,Misconduct (Anthrax Refusal)
+KRA,Homosexual Conduct (Acts)
+KRB,Homosexual Conduct (Statement)
+KRC,Homosexual Conduct (Marriage Or Attempted Marriage)
+L68,"Involuntary release: nonselection for Indefinite Reserve status, USAF"
+LBB,"Involuntary release maximum age, USN  Officers; OR"
+LBB,Maximum Age
+LBC,"Involuntary release completion of maximum period service according to grade, USN  Officers; OR"
+LBC,Maximum Service Or Time In Grade
+LBD,Sufficient Service For Retirement
+LBH,Early Release  Insufficient Retainability
+LBK,"Involuntary discharge at end active obligated service, USN  Enlisted; OR"
+LBK,Completion Of Required Active Service
+LBM,"Navy, USMC, USAF Short length of time remaining after return from overseas or other duty; OR"
+LBM,"Within 3 months of end active obligated service, USN  Enlisted; OR"
+LBM,Insufficient Retainability (Economic Reasons)
+LCC,Early Release  Reduction in authorized strength; OR
+LCC,"General demobilization. reduction in force, USN  Enlisted; OR"
+LCC,Reduction In Force
+LCN,Force Shaping (Board Selected)
+LCR,Weight Control Failure
+LDG,Parenthood Or Custody Of Minor Children
+LDK,Security reason
+LDL,Ecclesiastical Endorsement
+LDM,"Strength adjustment, USN  Officers"
+LDN,Lack Of Jurisdiction
+LDP,Breach of Contract
+LDP6,"Nonfulfillment of service contract. convenience of the government, with breach of contract payment, USAF"
+LDP7,"Nonfulfillment of service contract, with breach of contract and readjustment payment, USAF"
+LDP8,"Nonfulfillment of service contract. failure of selection for promotion, with breach of contract payment, USAF"
+LDP9,"Nonfulfillment of service contract. request for extension of active duty disapproved, with breach of contract and readjustment payment, USAF"
+LDPA,"Nonfulfillment of service contract. failure of selection for promotion, with breach of contract and readjustment payment, USAF"
+LDPB,"Nonfulfillment of service contract. convenience of the government, with readjustment payment, USAF"
+LDPC,"Nonfulfillment of service contract, with readjustment payment, USAF"
+LDPD,"Nonfulfillment of service contract. termination of extended active duty, with breach of contract payment, USAF"
+LDR,Early Release  Other
+LED,"CONUS based airman lacks retainability for assignment, USAF; OR"
+LED,Early Release  Insufficient Retainability
+LER,"Disability, Other (Enhanced) "
+LET,Entry level status performance and conduct or pregnancy
+LFC,Erroneous Entry (Other)
+LFD,Disruptive Behavior Disorder
+LFE,Mental Disorder (Other)
+LFF,Secretarial Authority
+LFG,"Competent Authority, Without Board Action"
+LFH,Failure To Accept Regular Appointment
+LFN,"Physical disability existing prior to service as established by medical board. not entitled to severance pay., USN  Officers"
+LFR,"Revert to inactive status. Retire age 60. No disability severance pay, USAF; OR"
+LFR,"Disability, Other "
+LFT,Erroneous Enlistment or Induction or Unqualified for Active Duty  Medical; OR
+LFT,Physical Standards
+LFV,"Condition, Not A Disability "
+LFW,Failed Medical/Physical Procurement Standards
+LFX,Personality Disorder
+LFY,Adjustment Disorder
+LFZ,Impulse Control Disorder
+LGA,Entry Level Performance And Conduct
+LGB,Failure of selection for permanent promotion; OR
+LGB,"Failure of selection for permanent reserve promotion, USN  Officers; OR"
+LGB,"Involuntary release. Failed permanent promotion or removed from list, USAF; OR"
+LGB,"Non-Selection, Permanent Promotion "
+LGC,Failure of selection for temporary promotion; OR
+LGC,"Involuntary release: twice failed temporary promotion, USAF; OR"
+LGC,"Non-Selection, Temporary Promotion"
+LGH,Non-Retention On Active Duty
+LGJ,Early Release  Disapproval of request for extension of service; OR
+LGJ,"Involuntary release: disapproved request for extension of tour, USAF; OR"
+LGJ,Request For Extension Of Service Denied
+LGJ1,"Request for extension of service denied upon initial EAS without readjustment pay/not selected for retention, USAF"
+LGJ2,"Request for extension of service denied upon extended EAS without readjustment pay/not selected for retention, USAF"
+LHD,Failure To Complete Commissioning Or Warrant Program
+LHF,"Navy, USMC, USAF Other"
+LHH,Dismissal - Awaiting Appellate
+LHJ,Unsatisfactory Performance
+LHK,Substandard Performance
+LIF,Secretarial Authority
+LLM,Army Trainee Discharge
+LMJ,See LHJ
+LND,Misc. reasons (medical service personnel who receive unfavorable background investigation or National Agency check; OR
+LND,Miscellaneous/- General Reasons
+LNF,Army Trainee Discharge
+MBD,Sufficient Service For Retirement
+MBH,Early Release  Insufficient Retainability
+MBJ,Medal Of Honor Recipient
+MBK,"Completion of active duty service commitment or expiration of term of service, USAF; OR"
+MBK,Completion Of Required Active Service
+MBM,Insufficient Retainability (Economic Reasons)
+MBN,"(ANGUS) (USAFR) Release from active duty completion of required service, USAF; OR"
+MBN,Expiration of Term of Service
+MCA,Early Release Program-Voluntary Separation Incentive
+MCB,Early Release Program-Special Separation Benefit
+MCC,Reduction In Force
+MCF,Attend Civilian School
+MCK,Early Release  In the national interest; OR
+MCK,Civil Office
+MCN,Force ShapingVsp
+MCQ,"Sole surviving son, daughter or family member; OR"
+MCQ,Surviving Family Member
+MDB,Hardship
+MDF,Pregnancy Or Childbirth
+MDG,Parenthood Or Custody Of Minor Children
+MDH,Dependency or Hardship
+MDJ,National interest
+MDL,Early Release  To attend school
+MDM,Holiday Early Release Program
+MDN,Other
+MDP,Breach of Contract
+MDR,Early Release  Other
+MDS,Defective Enlistment Agreement
+MEB,Early Release  Other
+MEC,"Completed extended enlistment, USAF; OR"
+MEC,Erroneous Enlistment or Induction; OR
+MEC,Expiration of Term of Service
+MFA,Expiration of Term of Service
+MFF,Secretarial Authority
+MFG,Other
+MGC,Early Release  Other
+MGH,Non-Retention On Active Duty
+MGJ,Request For Extension Of Service Denied
+MGM,To accept commission
+MGO,Early Release  Police Duty or Seasonal Employment
+MGP,Interdepartmental Transfer
+MGQ,Intradepartmental Transfer
+MGR,Revert to Regular Army warrant officer status
+MGU,Enrollment In Service Academy
+MGX,Officer Commission program
+MHC,Immediate Enlistment Or Reenlistment
+MND,Misc. reasons (in lieu of serving in lower grade than Reserve grade or by request  includes MC and DC officers) or in lieu of unqualified resignation; OR
+MND,Miscellaneous/- General Reasons
+MNF,Other
+MOD,Sole surviving son
+MOJ,Early Release  In the national interest
+NB,Unacceptable Conduct (Anthrax Refusal)
+NBD,Retirement  20  30 Years Service; OR
+NBD,Sufficient Service For Retirement
+NBE,Early Retirement
+NC,Unacceptable Conduct
+ND,Miscellaneous/- General Reasons
+NDB,Dependency or Hardship
+NDH,Early Release  To teach
+NEF,Secretarial Authority
+NET,Unqualified for Active Duty  Other
+NVC,Erroneous Enlistment or Induction
+PA,Personal Alcohol Abuse
+PB,Personal Drug Abuse
+PC,Drug Rehabilitation Failure
+PD,Alcohol Rehabilitation Failure
+PGU,Service Academy
+PKB,Misconduct (Civil Conviction)
+PKD,Misconduct (Awol)
+PKF,Misconduct (Desertion)
+QCK,Civil Office
+QFH,Failure To Accept Regular Appointment
+RA,Homosexual Conduct (Acts)
+RB,Retirement  Over 30 Years Service
+RBB,Maximum Age
+RBC,Maximum Service Or Time In Grade
+RBD,Retirement  20  30 Years Service; OR
+RBD,Sufficient Service For Retirement
+RBE,Early Retirement
+RC,Homosexual Conduct (Marriage Or Attempted Marriage)
+RCC,Reduction In Force
+RDL,Ecclesiastical Endorsement
+RFJ,Permanent Disability  Retired
+RFJ1,"Permanent disability retired list, USAF"
+RFK,Temporary Disability  Retired
+RFK1,"Temporary disability retired list, USAF"
+RHK,Substandard Performance
+RNC,Unacceptable Conduct
+SBB,"Attain maximum age. mandatory retirement, USN  Officers; OR"
+SBB,"Mandatory retirement on established date, maximum age, USAF; OR"
+SBB,Maximum Age
+SBC,"Attain maximum time in grade/service. mandatory retirement, USN  Officers; OR"
+SBC,"Mandatory retirement on established date. maximum years of service, USAF; OR"
+SBC,Maximum Service Or Time In Grade
+SBD,Retirement  20  30 Years Service
+SBE,Early Retirement
+SCC,Reduction In Force
+SCN,Force Shaping (Board Selected)
+SEJ,"Disability, Permanent (Enhanced) "
+SEK,Disability Temporary (Enhanced)
+SFE,"Placed on temporary disability retired list, USN  Officers"
+SFJ,Permanent Disability  Retired; OR
+SFJ,"Disability, Permanent "
+SFK,"Place on temporary disability retired list, USAF; OR"
+SFK,"Placed on temporary disability retired list, USN  Enlisted; OR"
+SFK,Temporary Disability  Retired; OR
+SFK,Disability Temporary
+SGB,"Failure of selection for promotion, permanent, USN  Officers; OR"
+SGB,"Retired on established date nonselection permanent promotion or retained for retirement nonselection permanent promotion, USAF; OR"
+SGB,"Non-Selection, Permanent Promotion "
+SGC,"Failure of selection for promotion, temporary, USN  Officers; OR"
+SGC,"Non-Selection, Temporary Promotion"
+SHK,Substandard Performance
+SKU,No definition at this time
+SNC,Unacceptable Conduct
+TCC,See LCC
+VBK,Completion Of Required Active Service
+VEJ,"Disability, Permanent (Enhanced) "
+VEK,Disability Temporary (Enhanced)
+VFJ,"Revert to retired list with permanent disability, USAF; OR"
+VFJ,"Disability, Permanent "
+VFK,"Revert to retired list and placed on temporary disability retired list, USAF; OR"
+VFK,Disability Temporary
+VNF,Other
+WEJ,"Disability, Permanent (Enhanced)"
+WEK,"Disability, Temporary (Enhanced) "
+WEQ,"Disability, Aggravation (Enhanced) "
+WFJ,"Disability, Permanent"
+WFK,Temporary Disability  Retired
+WFK,"Disability, Temporary "
+WFQ,"Disability, Aggravation "
+XBK,Completion Of Required Active Service
+XDM,Early Release  Other
+XET,Unqualified for Active Duty  Other
+XND,Other
+XOH,Dependency or Hardship
+XOP,Breach of Contract
+XOS,Retirement  Other
+YBK,Retirement  Other
+YCP,Alien
+YDA,Fraudulent Entry
+YDN,Lack Of Jurisdiction
+YDT,Fraudulent Entry (Drug Abuse)
+YDU,Fraudulent Entry (Alcohol Abuse)
+YFA,Erroneous Entry (Alcohol Abuse)
+YFB,Under Age
+YFC,Erroneous Entry (Other)
+YFU,Erroneous Entry (Drug Abuse)
+YKG,Fraudulent Entry
+YND,Other
+YPA,Personal Alcohol Abuse
+YPB,Personal Drug
