@@ -1,0 +1,924 @@
+ Table 
+2.1
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+Adjustment Disorders by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+359
+ 386
+ 323
+ 307
+ 358
+ 320
+ 272
+ 348
+ 271
+ 270
+ 300
+ 362
+ 479
+ A 
+1,739
+ 1,653
+ 1,817
+ 1,720
+ 1,743
+ 1,553
+ 2,059
+ 1,921
+ 1,834
+ 1,924
+ 2,099
+ 2,502
+ 2,953
+ Marines
+ 349
+ 307
+ 367
+ 431
+ 522
+ 481
+ 622
+ 616
+ 517
+ 616
+ 719
+ 935
+ 924
+ Navy
+ 445
+ 400
+ 461
+ 379
+ 514
+ 672
+ 910
+ 940
+ 781
+ 698
+ 846
+ 1,095
+ 1,035
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 2,582
+ 2,540
+ 2,734
+ 2,578
+ 2,895
+ 2,810
+ 3,643
+ 3,596
+ 3,158
+ 3,301
+ 3,744
+ 4,660
+ 5,180
+ GRD
+ 310
+ 206
+ 234
+ 259
+ 242
+ 216
+ 220
+ 229
+ 245
+ 207
+ 220
+ 234
+ 211
+ TOTAL
+ 2,892
+ 2,746
+ 2,968
+ 2,837
+ 3,137
+ 3,026
+ 3,863
+ 3,825
+ 3,403
+ 3,508
+ 3,964
+ 4,894
+ 5,391
+ Table 
+2.2
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+Alcohol Use Disorders by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+185
+ 183
+ 192
+ 151
+ 143
+ 128
+ 127
+ 129
+ 150
+ 151
+ 136
+ 126
+ 173
+ A 
+831
+ 1,116
+ 1,427
+ 1,546
+ 1,212
+ 1,008
+ 1,163
+ 1,236
+ 1,188
+ 1,138
+ 1,114
+ 1,049
+ 1,178
+ Marines
+ 283
+ 317
+ 411
+ 527
+ 417
+ 380
+ 404
+ 365
+ 305
+ 368
+ 326
+ 265
+ 333
+ Navy
+ 502
+ 534
+ 549
+ 513
+ 410
+ 407
+ 425
+ 416
+ 487
+ 572
+ 602
+ 401
+ 563
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 1,650
+ 2,016
+ 2,411
+ 2,559
+ 2,050
+ 1,799
+ 2,007
+ 2,041
+ 2,008
+ 2,126
+ 2,097
+ 1,764
+ 2,166
+ GRD
+ 151
+ 134
+ 168
+ 178
+ 132
+ 124
+ 112
+ 105
+ 122
+ 103
+ 81 
+77 
+81 
+TOTAL
+ 1,801
+ 2,150
+ 2,579
+ 2,737
+ 2,182
+ 1,923
+ 2,119
+ 2,146
+ 2,130
+ 2,229
+ 2,178
+ 1,841
+ 2,247
+ Table 
+2.3
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+Anxiety Disorders by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+57 
+62
+ 58
+ 49
+ 56
+ 68
+ 67
+ 67
+ 90
+ 96
+ 87
+ 118
+ 126
+ A 
+253
+ 300
+ 398
+ 375
+ 452
+ 404
+ 454
+ 482
+ 483
+ 491
+ 443
+ 554
+ 499
+ Marines
+ 63 
+57
+ 72
+ 63
+ 90
+ 77
+ 107
+ 101
+ 72
+ 120
+ 108
+ 164
+ 121
+ Navy
+ 83 
+106
+ 71 
+91 
+96 
+126
+ 136
+ 150
+ 199
+ 193
+ 210
+ 274
+ 287
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 399
+ 460
+ 532
+ 504
+ 611
+ 588
+ 694
+ 729
+ 777
+ 842
+ 806
+ 1,053
+ 990
+ GRD
+ 57 
+65 
+67 
+74 
+83 
+87 
+70
+ 71
+ 67
+ 58
+ 42
+ 57
+ 43
+ TOTAL
+ 456
+ 525
+ 599
+ 578
+ 694
+ 675
+ 764
+ 800
+ 844
+ 900
+ 848
+ 1,110
+ 1,033
+ Table 
+2.4
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with
+Depressive Disorders by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+272
+ 218
+ 229
+ 237
+ 209
+ 285
+ 240
+ 230
+ 273
+ 249
+ 246
+ 304
+ 324
+ A 
+1,301
+ 1,285
+ 1,454
+ 1,571
+ 1,755
+ 1,539
+ 1,454
+ 1,477
+ 1,393
+ 1,502
+ 1,501
+ 1,457
+ 1,438
+ Marines
+ 290
+ 278
+ 287
+ 370
+ 467
+ 409
+ 464
+ 423
+ 328
+ 295
+ 360
+ 411
+ 320
+ Navy
+ 435
+ 414
+ 456
+ 472
+ 473
+ 577
+ 500
+ 630
+ 670
+ 713
+ 714
+ 708
+ 646
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 2,039
+ 1,967
+ 2,208
+ 2,380
+ 2,625
+ 2,514
+ 2,397
+ 2,564
+ 2,438
+ 2,561
+ 2,644
+ 2,726
+ 2,601
+ GRD
+ 259
+ 228
+ 218
+ 270
+ 279
+ 296
+ 261
+ 196
+ 226
+ 198
+ 177
+ 154
+ 127
+ TOTAL
+ 2,298
+ 2,195
+ 2,426
+ 2,650
+ 2,904
+ 2,810
+ 2,658
+ 2,760
+ 2,664
+ 2,759
+ 2,821
+ 2,880
+ 2,728
+ Table 
+2.5
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+Insomnia by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ A 
+Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Marines
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Navy
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ GRD
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ TOTAL
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Suppressed
+ Table 
+2.6
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+PTSD by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+29 
+26 
+41 
+27 
+33 
+48 
+45 
+56 
+78 
+74 
+80 
+71 
+58 
+A 
+371
+ 424
+ 560
+ 715
+ 753
+ 712
+ 688
+ 882
+ 855
+ 768
+ 644
+ 648
+ 553
+ Marines
+ 112
+ 151
+ 151
+ 161
+ 133
+ 168
+ 194
+ 206
+ 140
+ 121
+ 144
+ 118
+ 89 
+Navy
+ 73 
+81
+ 76
+ 104
+ 88
+ 88 
+101
+ 119
+ 122
+ 144
+ 147
+ 181
+ 133
+ Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 493
+ 595
+ 732
+ 889
+ 903
+ 897
+ 936
+ 1,148
+ 1,084
+ 1,017
+ 935
+ 953
+ 792
+ GRD
+ 92 
+87 
+96 
+118
+ 104
+ 119
+ 92 
+115
+ 111
+ 90 
+80 
+65 
+41 
+TOTAL
+ 585
+ 682
+ 828
+ 1,007
+ 1,007
+ 1,016
+ 1,028
+ 1,263
+ 1,195
+ 1,107
+ 1,015
+ 1,018
+ 833
+ Table 
+2.7
+: Direct
+ Care Sum of Hospitalizations Among Patients
+ with 
+Substance Use Disorders by Calendar Year
+ Service
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ A
+28 
+23
+ 27
+ 21
+ 25
+ 24 
+12 
+25 
+28 
+28 
+18 
+15 
+17 
+A 
+340
+ 514
+ 543
+ 607
+ 510
+ 474
+ 589
+ 492
+ 379
+ 370
+ 331
+ 307
+ 319
+ Marines
+ 41 
+74
+ 93
+ 136
+ 99 
+105
+ 142
+ 118
+ 65
+ 49 
+60 
+49 
+46 
+Navy
+ 61 
+84 
+87 
+89 
+61 
+73 
+114
+ 88
+ 88 
+83 
+76 
+79 
+95 
+Component
+ 2005
+ 2006
+ 2007
+ 2008
+ 2009
+ 2010
+ 2011
+ 2012
+ 2013
+ 2014
+ 2015
+ 2016
+ 2017
+ ACT
+ 406
+ 638
+ 679
+ 783
+ 624
+ 617
+ 817
+ 689
+ 520
+ 501
+ 459
+ 432
+ 456
+ GRD
+ 64 
+57 
+71 
+70 
+71 
+59 
+40 
+34 
+40 
+29 
+26 
+18 
+21 
+TOTAL
+ 470
+ 695
+ 750
+ 853
+ 695
+ 676
+ 857
+ 723
+ 560
+ 530
+ 485
+ 450
+ 477
