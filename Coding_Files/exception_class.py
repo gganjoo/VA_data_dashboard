@@ -29,15 +29,16 @@ except KeyError:
 except FileNotFoundError:
     raise DataConfigurationError
 except json.decoder.JSONDecodeError:
-    raise DataConfigErr
+    raise DataConfigErr"""
 
 userInput = input("What is your username?\n")
 
-if userInput == username:
+if DODID == DODID:
     a=input("Password?\n")
     if a == password:
         print("Welcome!")
     else:
+        print("Incorrect pwd")
         raise DataConfigErr
 else:
    raise DataConfigErr
