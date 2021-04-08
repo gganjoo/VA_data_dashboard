@@ -1,3 +1,4 @@
+from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -32,58 +33,77 @@ class Display():
             active_bybranch = df_cmpt['All Active':'Air Force']*100
             active_bysex = df_cmpt_demo['Male':'Female']['Active']*100
             active_bygrade = df_cmpt_demo["All Enlisted":"Cadet"]['Active']*100
-            self.ax = self.create_display('Active Duty', active_byage, active_bybranch, active_bysex, active_bygrade)
+            self.ax = self.create_display('Active Duty', active_byage, active_bybranch, active_bysex, active_bygrade, soldier)
 
         elif soldier['status'] == 'Reserve':
             reserve_byage = df_cmpt_demo['17-19':'55-59']['Reserve']*100
             reserve_bybranch = df_cmpt['All Reserve':'Air Force Reserve']*100
             reserve_bysex = df_cmpt_demo['Male':'Female']['Reserve']*100
             reserve_bygrade = df_cmpt_demo["All Enlisted":"Cadet"]['Reserve']*100
-            self.ax = self.create_display('Reserve', reserve_byage, reserve_bybranch, reserve_bysex, reserve_bygrade)
+            self.ax = self.create_display('Reserve', reserve_byage, reserve_bybranch, reserve_bysex, reserve_bygrade, soldier)
 
         elif soldier['status'] == 'NG':
             guard_byage = df_cmpt_demo['17-19':'55-59']['National Guard']*100
             guard_bybranch = df_cmpt['All National Guard':'Air National Guard']*100
             guard_bysex = df_cmpt_demo['Male':'Female']['National Guard']*100
             guard_bygrade = df_cmpt_demo["All Enlisted":"Cadet"]['National Guard']*100
-            self.ax = self.create_display('National Guard', guard_byage, guard_bybranch, guard_bysex, guard_bygrade)
+            self.ax = self.create_display('National Guard', guard_byage, guard_bybranch, guard_bysex, guard_bygrade, soldier)
 
         else: 
             pass
             # SEND TO ERROR CLASS, branch data not available
 
-    def create_display(self, status, age, branch, sex, grade):
-
+    def create_display(self, status, age, branch, sex, grade, soldier):
+        
         ### PLOT 1: RISK BY COMPONENT ###
-        self.ax[0,0].bar(branch.index, branch.pct)
+        self.ax[0,0].bar(branch.index, branch.pct, color = ('blue', 'red', 'blue', 'blue', 'blue'))
         self.ax[0,0].set_title("% of Service Member Suicides by Specific Component, 2019")
         self.ax[0,0].set_ylabel("% of suicides")
         self.ax[0,0].set_xlabel(status +  " Component")
+        
 
         ### PLOT 2: RISK BY AGE ###
+        colors = []
+        #[colors.append('red') for item in age.index if ((date.today() - soldier['dob']) in item) else colors.append('blue')]
+#         print(age.index)
+#         print(type(age.index[0]))
+        print(datetime.today())
+        print(datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%y %H:%M:%S').date())
+        
         self.ax[0,1].bar(age.index, age.values)
         self.ax[0,1].set_title("% of " + status + " Suicides by Age, 2019") 
         self.ax[0,1].set_ylabel("% of suicides")
         self.ax[0,1].set_xlabel("Service Member Age")
-
+        
+        
         ### PLOT 3: RISK BY SEX ###
-        self.ax[1,1].bar(sex.index, sex.values)
+        if soldier['gender'] == 'F':
+            self.ax[1,1].bar(sex.index, sex.values, color = ['blue','red'])
+        else:
+            self.ax[1,1].bar(sex.index, sex.values, color = ['red','blue'])
         self.ax[1,1].set_title("% of " + status + " Suicides by Sex, 2019") 
         self.ax[1,1].set_ylabel("% of suicides")
         self.ax[1,1].set_xlabel("Sex of Service Member")
-
+        
+        
         ### PLOT 4: RISK BY GRADE ###
         self.ax[1,0].bar(grade.index, grade.values)
         self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019") 
         self.ax[1,0].set_ylabel("% of suicides")
         self.ax[1,0].set_xlabel("Grade of Service Member")
+        
 
-        self.highlight_soldier(status)
+        ### HIGHLIGHTING SOLDIER
+        
+#         self.highlight_soldier(status)
         plt.show()
 
 ros = Roster(soldier_data)
 soldier = ros.roster[4389679928]
+#print(soldier['status'])
 display = Display(soldier)
+#print(len(ros.roster))
 
-print(len(ros.roster))
+
+
 
