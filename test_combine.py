@@ -60,7 +60,9 @@ class Display():
     def create_display(self, status, age, branch, sex, grade, soldier):
         
         ### PLOT 1: RISK BY COMPONENT ###
-        self.ax[0,0].bar(branch.index, branch.pct, color = ('cornflowerblue', 'red', 'cornflowerblue', 'cornflowerblue', 'cornflowerblue'))
+        color_branch = []
+        [color_branch.append('red') if (soldier['branch'] == item) else color_branch.append('cornflowerblue') for item in branch.index[1:]]
+        self.ax[0,0].bar(branch.index[1:], branch.pct[1:], color = color_branch)
         self.ax[0,0].set_title("% of Service Member Suicides by Specific Component, 2019", fontweight = 'bold')
         self.ax[0,0].set_ylabel("% of suicides")
         self.ax[0,0].set_xlabel(status +  " Component")
@@ -68,7 +70,7 @@ class Display():
 
         ### PLOT 2: RISK BY AGE ###
         colors = []
-        age_days = datetime.today().date() - datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%Y' + ' %H:%M:%S' ).date()
+        age_days = datetime.today().date() - datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%y' + ' %H:%M:%S' ).date()
         soldier_age = age_days.days/365
         ranges = pd.Series(age.index).apply(Display.create_range)
         [colors.append('red') if (math.floor(soldier_age) in item) else colors.append('cornflowerblue') for item in ranges ]  
@@ -80,7 +82,7 @@ class Display():
         
         
         ### PLOT 3: RISK BY SEX ###
-        if soldier['gender'] == 'F':
+        if soldier['gender'] == 'f':
             self.ax[1,1].bar(sex.index, sex.values, color = ['cornflowerblue','red'])
         else:
             self.ax[1,1].bar(sex.index, sex.values, color = ['red','cornflowerblue'])
@@ -91,36 +93,37 @@ class Display():
         
         ### PLOT 4: RISK BY GRADE ###
         colors_grade = []
-        print(soldier['grade'])
-        #[colors_grade.append('red') if (soldier['grade'] == item) else colors_grade.append('blue') for item in grade.index]
         for item in grade.index[1:]:
-            if soldier['grade'].upper() in ['E1', 'E2', 'E3', 'E4']:
+            if (item == 'E1-E4') & (soldier['grade'].upper() in ['E1', 'E2', 'E3', 'E4']):
                 colors_grade.append('red')
-            elif soldier['grade'].upper() in ['E5', 'E6', 'E7', 'E8', 'E9']:
+            elif (item == 'E5-E9') & (soldier['grade'].upper() in ['E5', 'E6', 'E7', 'E8', 'E9']):
                 colors_grade.append('red')
-            elif soldier['grade'][0] == 'w':
+            elif (item == 'O (Commissioned Officer)') & (soldier['grade'][0] == 'o'):
                 colors_grade.append('red')
-            elif soldier['grade'][0] == 'o':
+            elif (item == 'W (Warrant Officer)') & (soldier['grade'][0] == 'w'):
                 colors_grade.append('red')
-            elif soldier['grade'][0] == 'c':
+            elif (item == 'Cadet') & (soldier['grade'][0] == 'c'):
                 colors_grade.append('red')
             else:
                 colors_grade.append('cornflowerblue')
 
-        # return
         self.ax[1,0].bar(grade.index[1:], grade.values[1:], color = colors_grade)
         self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019", fontweight = 'bold') 
         self.ax[1,0].set_ylabel("% of suicides")
         self.ax[1,0].set_xlabel("Grade of Service Member")
         self.ax[1,0].tick_params(axis = 'x',rotation=35)
         
+        plt.suptitle(soldier['l_name'] + ', ' + soldier['f_name'], fontsize = 20)
         # Helps with the spacing between subplots
         plt.tight_layout()
         plt.show()
 
 ros = Roster(soldier_data)
-soldier = ros.roster[4389679928]
-#print(soldier['status'])
+print(list(ros.roster.keys()))
+id = int(input('Enter a dodid from above to see the data ', ))
+
+####FOR DENISE if dod id not in dict, Key Error
+soldier = ros.roster[id]
 display = Display(soldier)
 #print(len(ros.roster))
 
