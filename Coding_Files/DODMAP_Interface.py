@@ -35,6 +35,12 @@ class RichText(tk.Text):
     def insert_bullet(self, index, text):
         self.insert(index, f"\u2022 {text}", "bullet")
 
+if __name__ == "__main__":
+    root = tk.Tk()
+    text = RichText(root, widgth = WIDTH, height = HEIGHT)
+    text.pack(fill = "both", expand = True)
+    text.insert("end", )
+
 class MAP_gui(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.TK.__init__(self, *args, **kwargs)
