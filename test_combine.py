@@ -1,4 +1,5 @@
 from datetime import datetime
+import math
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -8,7 +9,7 @@ df_cmpt = pd.read_json('JSON_data_files/2019_suicidepct_bycmpt.json', typ='serie
 df_cmpt = df_cmpt.to_frame()
 df_cmpt.columns=['pct']
 
-soldier_data = pd.read_csv('Soldier_data_fake copy.csv')
+soldier_data = pd.read_csv('Soldier_data_fake1_20210409 copy.csv')
 
 class Roster:
     '''Creates a dictionary of patient data'''
@@ -53,49 +54,68 @@ class Display():
             pass
             # SEND TO ERROR CLASS, branch data not available
 
+    def create_range(string):
+    	return range(int(string[0:2]),int(string[3:]))
+
     def create_display(self, status, age, branch, sex, grade, soldier):
         
         ### PLOT 1: RISK BY COMPONENT ###
-        self.ax[0,0].bar(branch.index, branch.pct, color = ('blue', 'red', 'blue', 'blue', 'blue'))
-        self.ax[0,0].set_title("% of Service Member Suicides by Specific Component, 2019")
+        self.ax[0,0].bar(branch.index, branch.pct, color = ('cornflowerblue', 'red', 'cornflowerblue', 'cornflowerblue', 'cornflowerblue'))
+        self.ax[0,0].set_title("% of Service Member Suicides by Specific Component, 2019", fontweight = 'bold')
         self.ax[0,0].set_ylabel("% of suicides")
         self.ax[0,0].set_xlabel(status +  " Component")
         
 
         ### PLOT 2: RISK BY AGE ###
         colors = []
-        #[colors.append('red') for item in age.index if ((date.today() - soldier['dob']) in item) else colors.append('blue')]
-#         print(age.index)
-#         print(type(age.index[0]))
-        print(datetime.today())
-        print(datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%y %H:%M:%S').date())
-        
-        self.ax[0,1].bar(age.index, age.values)
-        self.ax[0,1].set_title("% of " + status + " Suicides by Age, 2019") 
+        age_days = datetime.today().date() - datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%Y' + ' %H:%M:%S' ).date()
+        soldier_age = age_days.days/365
+        ranges = pd.Series(age.index).apply(Display.create_range)
+        [colors.append('red') if (math.floor(soldier_age) in item) else colors.append('cornflowerblue') for item in ranges ]  
+
+        self.ax[0,1].bar(age.index, age.values, color = colors)
+        self.ax[0,1].set_title("% of " + status + " Suicides by Age, 2019", fontweight = 'bold') 
         self.ax[0,1].set_ylabel("% of suicides")
         self.ax[0,1].set_xlabel("Service Member Age")
         
         
         ### PLOT 3: RISK BY SEX ###
         if soldier['gender'] == 'F':
-            self.ax[1,1].bar(sex.index, sex.values, color = ['blue','red'])
+            self.ax[1,1].bar(sex.index, sex.values, color = ['cornflowerblue','red'])
         else:
-            self.ax[1,1].bar(sex.index, sex.values, color = ['red','blue'])
-        self.ax[1,1].set_title("% of " + status + " Suicides by Sex, 2019") 
+            self.ax[1,1].bar(sex.index, sex.values, color = ['red','cornflowerblue'])
+        self.ax[1,1].set_title("% of " + status + " Suicides by Sex, 2019", fontweight = 'bold') 
         self.ax[1,1].set_ylabel("% of suicides")
         self.ax[1,1].set_xlabel("Sex of Service Member")
         
         
         ### PLOT 4: RISK BY GRADE ###
-        self.ax[1,0].bar(grade.index, grade.values)
-        self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019") 
+        colors_grade = []
+        print(soldier['grade'])
+        #[colors_grade.append('red') if (soldier['grade'] == item) else colors_grade.append('blue') for item in grade.index]
+        for item in grade.index[1:]:
+            if soldier['grade'].upper() in ['E1', 'E2', 'E3', 'E4']:
+                colors_grade.append('red')
+            elif soldier['grade'].upper() in ['E5', 'E6', 'E7', 'E8', 'E9']:
+                colors_grade.append('red')
+            elif soldier['grade'][0] == 'w':
+                colors_grade.append('red')
+            elif soldier['grade'][0] == 'o':
+                colors_grade.append('red')
+            elif soldier['grade'][0] == 'c':
+                colors_grade.append('red')
+            else:
+                colors_grade.append('cornflowerblue')
+
+        # return
+        self.ax[1,0].bar(grade.index[1:], grade.values[1:], color = colors_grade)
+        self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019", fontweight = 'bold') 
         self.ax[1,0].set_ylabel("% of suicides")
         self.ax[1,0].set_xlabel("Grade of Service Member")
+        self.ax[1,0].tick_params(axis = 'x',rotation=35)
         
-
-        ### HIGHLIGHTING SOLDIER
-        
-#         self.highlight_soldier(status)
+        # Helps with the spacing between subplots
+        plt.tight_layout()
         plt.show()
 
 ros = Roster(soldier_data)
