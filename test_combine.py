@@ -106,8 +106,7 @@ class Display():
                 colors_grade.append('red')
             else:
                 colors_grade.append('cornflowerblue')
-
-        print(grade.index[1:])
+                
         
         self.ax[1,0].bar(grade.index[1:], grade.values[1:], color = colors_grade)
         self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019", fontweight = 'bold') 
