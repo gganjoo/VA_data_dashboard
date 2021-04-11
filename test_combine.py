@@ -61,7 +61,7 @@ class Display():
         
         ### PLOT 1: RISK BY COMPONENT ###
         color_branch = []
-        [color_branch.append('red') if (soldier['branch'] == item) else color_branch.append('cornflowerblue') for item in branch.index[1:]]
+        [color_branch.append('red') if (soldier['branch'] == item[0:4]) else color_branch.append('cornflowerblue') for item in branch.index[1:]]
         self.ax[0,0].bar(branch.index[1:], branch.pct[1:], color = color_branch)
         self.ax[0,0].set_title("% of Service Member Suicides by Specific Component, 2019", fontweight = 'bold')
         self.ax[0,0].set_ylabel("% of suicides")
@@ -98,15 +98,17 @@ class Display():
                 colors_grade.append('red')
             elif (item == 'E5-E9') & (soldier['grade'].upper() in ['E5', 'E6', 'E7', 'E8', 'E9']):
                 colors_grade.append('red')
-            elif (item == 'O (Commissioned Officer)') & (soldier['grade'][0] == 'o'):
+            elif (item == 'O1-O9') & (soldier['grade'][0] == 'o'):
                 colors_grade.append('red')
-            elif (item == 'W (Warrant Officer)') & (soldier['grade'][0] == 'w'):
+            elif (item == 'W1-W5') & (soldier['grade'][0] == 'w'):
                 colors_grade.append('red')
             elif (item == 'Cadet') & (soldier['grade'][0] == 'c'):
                 colors_grade.append('red')
             else:
                 colors_grade.append('cornflowerblue')
 
+        print(grade.index[1:])
+        
         self.ax[1,0].bar(grade.index[1:], grade.values[1:], color = colors_grade)
         self.ax[1,0].set_title("% of " + status + " Suicides by Grade, 2019", fontweight = 'bold') 
         self.ax[1,0].set_ylabel("% of suicides")
