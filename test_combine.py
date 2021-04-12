@@ -70,11 +70,14 @@ class Display():
 
         ### PLOT 2: RISK BY AGE ###
         colors = []
-        age_days = datetime.today().date() - datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%y' + ' %H:%M:%S' ).date()
-        soldier_age = age_days.days/365
+        age_days = (datetime.today().date() - datetime.strptime(soldier['dob'] + ' 00:00:00', '%m/%d/%y' + ' %H:%M:%S' ).date()).days
+
+        if age_days < 0:
+            age_days *= (-1)
+
+        soldier_age = age_days/365
         ranges = pd.Series(age.index).apply(Display.create_range)
         [colors.append('red') if (math.floor(soldier_age) in item) else colors.append('cornflowerblue') for item in ranges ]  
-
         self.ax[0,1].bar(age.index, age.values, color = colors)
         self.ax[0,1].set_title("% of " + status + " Suicides by Age, 2019", fontweight = 'bold') 
         self.ax[0,1].set_ylabel("% of suicides")
