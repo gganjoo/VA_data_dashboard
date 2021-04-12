@@ -53,9 +53,9 @@ class Display():
         else: 
             pass
             # SEND TO ERROR CLASS, branch data not available
-
+    @ staticmethod
     def create_range(string):
-    	return range(int(string[0:2]),int(string[3:]))
+    	return range(int(string[0:2]),int(string[3:5]))
 
     def create_display(self, status, age, branch, sex, grade, soldier):
         
