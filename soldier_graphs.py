@@ -10,7 +10,7 @@ df_cmpt = df_cmpt.to_frame()
 df_cmpt.columns = ['pct']
 
 # reads in individual soldier data
-soldier_data = pd.read_csv('Soldier_data_fake1_20210409 copy.csv')
+soldier_data = pd.read_csv('Soldier_data_fake_20210409.csv')
 
 class IOError:
     ''' Deals with csv reading in issues'''
