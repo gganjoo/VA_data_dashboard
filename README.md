@@ -1,6 +1,6 @@
 # Project2_Gonzalez_Ganjoo_Ferniza
 
-This is out submissionn for W200 project 2. We created a dashboard that created graphs out of publically available DOD reports and individual soldier data to highlight an individual's risks for suicide. 
+This is out submissionn for W200 project 2. We created a dashboard that created graphs out of publically available DOD reports and individual soldier data to highlight an individual's risks for suicide. Out written report is in the pdf 'Project2Paper.pdf'.
 
 Our main program can be run by entering 'python soldier_graphs.py' in the command line. The user will then be provided with 42 dodids that they can enter to see an individual's visualization. 
 
